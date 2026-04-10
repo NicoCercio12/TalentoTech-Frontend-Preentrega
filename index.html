@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuerso front</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <img src="image.png" alt="Logo" class="logo">
+        <nav>
+            <ul class="nav-list">
+
+                <li> <a href=" "> Inicio </a></li>
+                <li> <a href=" "> Nosotros </a></li>
+                <li> <a href=" "> Productos </a> </li>
+                <li> <a href=" "> Servicios </a></li>
+                <li> <a href=" "> Contacto </a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section class="hero">
+            <h1> Bienvenidos </h1>
+            <p> Este es un proyecto de frontend tipo ecommerce </p>
+            <button> Ver productos </button>
+        </section>
+
+        <section id="productos-section" class="productos">
+            <h2> Nuestros productos </h2>
+            <article class="card-producto">
+                <img src="monitor curvo.jpg" alt="Monitor curvo">
+                <h3>Monitor curvo </h3>
+                <p> Monitor de lujo listo para gaming </p>
+            </article>
+
+            <article class="card-producto">
+                <img src="YAMA-BLACK-1.png" alt="Teclado gamer">
+                <h3> Teclado gamer </h3>
+                <p> Teclado gamer con rgb </p>
+            </article>
+
+            <article class="card-producto">
+                <img src="mouse gamer.jpg" alt="Mouse gamer">
+                <h3> Mouse gamer </h3>
+                <p> Mouse gamer con rgb </p>
+            </article>
+        </section>
+
+        <section id="reseñas" class="reseñas">
+            <h2>Reseñas</h2>
+            <div class="reseñas-grid">
+                <article>
+                    <h3>Nicolás</h3>
+                    <p>Banco todo</p>
+                </article>
+
+                <article>
+                    <h3>Paula</h3>
+                    <p>Muy buen servicio</p>
+                </article>
+
+                <article>
+                    <h3>Gabriel</h3>
+                    <p>Envío rápido, lo recomiendo</p>
+                </article>
+            </div>
+        </section>
+        <section id="contacto" class="contacto">
+            <h2> Contacto </h2>
+            <div class="contacto-layout">
+                <div class="contacto-info"></div>
+                <p> Escribinos para mas informacion </p>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+                    <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg" alt="Video demo"
+                        class="video-thumbnail">
+                </a>
+            </div>
+
+            <form action="https://formspree.io/f/TU_ID" method="POST" class="form-contacto">
+                <label>
+                    Nombre <input type="text" name="nombre" required>
+                </label>
+                <label>
+                    Email <input type="email" name="email" required>
+                </label>
+                <label>
+                    Mensaje <textarea name="mensaje" rows="4" required></textarea>
+                </label>
+                <button type="submit">
+                    Enviar
+                </button>
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Talento Tech </p>
+    </footer>
+
+</body>
+
+</html>
