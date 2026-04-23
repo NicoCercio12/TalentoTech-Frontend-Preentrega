@@ -4,22 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cuerso front</title>
+    <title>Curso front</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <header>
-        <img src="image.png" alt="Logo" class="logo">
+        <img src="imagenes/image.png" alt="Logo" class="logo">
         <nav>
             <ul class="nav-list">
 
-                <li> <a href=" "> Inicio </a></li>
-                <li> <a href=" "> Nosotros </a></li>
-                <li> <a href=" "> Productos </a> </li>
-                <li> <a href=" "> Servicios </a></li>
-                <li> <a href=" "> Contacto </a></li>
+                <li> <a href="#inicio"> Inicio </a></li>
+                <li> <a href="#nosotros"> Nosotros </a></li>
+                <li> <a href="#productos"> Productos </a> </li>
+                <li> <a href="#nuestros-servicios"> Servicios </a></li>
+                <li> <a href="#contacto"> Contacto </a></li>
 
             </ul>
         </nav>
@@ -32,24 +32,31 @@
             <button> Ver productos </button>
         </section>
 
-        <section id="productos-section" class="productos">
+        <section id="productos" class="productos">
             <h2> Nuestros productos </h2>
             <article class="card-producto">
-                <img src="monitor curvo.jpg" alt="Monitor curvo">
+                <img src="imagenes/monitor curvo.jpg" alt="Monitor curvo">
                 <h3>Monitor curvo </h3>
                 <p> Monitor de lujo listo para gaming </p>
             </article>
 
             <article class="card-producto">
-                <img src="YAMA-BLACK-1.png" alt="Teclado gamer">
+                <img src="imagenes/YAMA-BLACK-1.png" alt="Teclado gamer">
                 <h3> Teclado gamer </h3>
                 <p> Teclado gamer con rgb </p>
             </article>
 
             <article class="card-producto">
-                <img src="mouse gamer.jpg" alt="Mouse gamer">
+                <img src="imagenes/mouse gamer.jpg" alt="Mouse gamer">
                 <h3> Mouse gamer </h3>
                 <p> Mouse gamer con rgb </p>
+            </article>
+        </section>
+
+        <section id="nuestros-servicios" class="servicios">
+            <article class="card-servicios">
+            <h1>Nuestros Servicios</h1>
+            <p> Ofrecemos los mejores productos gamers a buen precio y calidad </p>
             </article>
         </section>
 
@@ -72,6 +79,16 @@
                 </article>
             </div>
         </section>
+
+        <section id="nosotros" class="nosotros">
+            <article class="card-nosotros">
+                <h1> Un poco sobre nosotros... </h1>
+                <p> Empresa dedicada a los perifericos de computadora</p>
+            </article>
+
+
+        </section>
+
         <section id="contacto" class="contacto">
             <h2> Contacto </h2>
             <div class="contacto-layout">
@@ -83,7 +100,7 @@
                 </a>
             </div>
 
-            <form action="https://formspree.io/f/TU_ID" method="POST" class="form-contacto">
+            <form action="https://formspree.io/f/mzdykkpg" method="POST" class="form-contacto">
                 <label>
                     Nombre <input type="text" name="nombre" required>
                 </label>
